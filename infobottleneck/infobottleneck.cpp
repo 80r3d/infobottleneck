@@ -266,7 +266,7 @@ void IIB(int Xdim,
 
     plt::title("Relevance-Compression Curves");
     plt::xlabel("I(T;X)/H(X)");
-    plt::ylabel("T;Y)/I(Y;X)");
+    plt::ylabel("(T;Y)/I(Y;X)");
 
     plt::show();
 
