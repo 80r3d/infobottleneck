@@ -1,4 +1,4 @@
-// InformationBottleneck.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// cartpolebalencing.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 #include <iostream>
 #include <cmath>
@@ -265,8 +265,8 @@ void IIB(int Xdim,
     plt::scatter(xv, yv);
 
     plt::title("Relevance-Compression Curves");
-    plt::xlabel("X");
-    plt::ylabel("Y");
+    plt::xlabel("I(T;X)/H(X)");
+    plt::ylabel("T;Y)/I(Y;X)");
 
     plt::show();
 
