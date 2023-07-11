@@ -18,5 +18,8 @@
     <ClCompile Include="infobottleneck.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="gplot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
