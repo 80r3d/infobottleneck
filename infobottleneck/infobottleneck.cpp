@@ -108,7 +108,7 @@ void IIB(int Xdim,
 
     /*
                 working with probabilities as tensors makes it easier to
-                read/write code and lets us utilize numpy broadcasting.
+                read/write code and lets us utilize tensor broadcasting.
                 e.g, in this function we are working with discrete random
                 variables X, Y, and T. We can represent all probabilities as
                 tensors, where each dimension represents a random variable.
